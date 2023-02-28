@@ -1,0 +1,130 @@
+.main-container {
+  display: flex;
+  height: 100%;
+}
+
+.meet-container {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  width: 100%;
+  flex-basis: 65%;
+}
+
+.header-container {
+  text-align: center;
+}
+
+.meet-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.meet-logo {
+  width: 400px;
+  height: auto;
+  margin-top: -20px;
+}
+
+.title {
+  margin-top: -70px;
+  margin-bottom: 12px;
+  font-size: 20px;
+  color: #a78b5e;
+  font-weight: 400;
+}
+
+.meet-container p {
+  padding: 0 100px;
+  margin-top: 20px;
+  text-align: justify;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.meet-image-container {
+  width: 100%;
+  flex-basis: 35%;
+  text-align: center;
+  margin-top: 120px;
+  margin-right: 20px;
+}
+
+.meet-image {
+  width: 300px;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.meet-footer {
+  margin-top: -30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #a78b5e;
+  font-weight: 500;
+  font-size: 14px;
+  height: 200px;
+}
+
+.sign {
+  font-style: italic;
+  border-bottom: 1px solid #a78b5e;
+  width: 210px;
+}
+
+/* Medium Devices */
+@media only screen and (min-width: 1024px) {
+  .meet-image-container-m {
+    display: none;
+  }
+}
+
+/* Large  */
+@media only screen and (max-width: 1024px) {
+  .meet-container {
+    flex-basis: 100%;
+  }
+
+  .meet-image-container {
+    display: none;
+    margin: 0;
+  }
+
+  .meet-image-container-m {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .meet-image-m {
+    width: 40%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 20px;
+  }
+
+  .meet-logo {
+    max-width: 70%;
+    height: auto;
+  }
+}
+
+/* Mobile  */
+@media only screen and (max-width: 480px) {
+  .meet-container p {
+    padding: 0 30px;
+  }
+}
+
+/* Tablets  */
+@media only screen and (max-width: 769px) {
+  .meet-container p {
+    padding: 0 40px;
+  }
+}

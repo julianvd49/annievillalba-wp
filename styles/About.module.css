@@ -1,0 +1,184 @@
+.bg {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 0.75) 100%
+    ),
+    url("../public/images/background.webp");
+  background-size: auto 100%;
+  -webkit-background-size: auto 100% !important;
+  background-repeat: no-repeat;
+  background-position-x: right !important;
+  background-position-y: center;
+  background-attachment: fixed;
+}
+
+.container {
+  width: 670px;
+  margin-left: 220px;
+  padding: 20px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-annievillalba {
+  margin-top: -40px;
+  max-width: 50%;
+  height: auto;
+}
+
+.meet-link-container {
+  text-align: center;
+  border: 1px solid black;
+}
+
+.meet-link {
+  display: block;
+  margin-top: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #a78b5e;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.text {
+  margin-top: 10px;
+  padding: 4px;
+  text-align: justify;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.form {
+  margin-top: 20px;
+  padding: 16px;
+  font-style: italic;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.contact-us {
+  display: block;
+  font-size: 14px;
+  font-style: normal;
+}
+
+.flex-inputs {
+  display: flex;
+}
+
+.input-position {
+  display: flex;
+  flex-basis: 50%;
+  flex-direction: column;
+}
+
+.msg-position {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 95%;
+}
+
+.btn-position {
+  display: flex;
+  justify-content: center;
+}
+
+.margin-position {
+  margin-top: 40px;
+}
+
+.submit {
+  transition: all 0.4s;
+  color: #000;
+  border: none;
+  background-color: transparent;
+  width: 60%;
+  height: 30px;
+  font-weight: 600;
+  font-size: 12px;
+  /* -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none; */
+}
+
+.submit:hover {
+  cursor: pointer;
+  background-color: #a78b5e;
+  color: #fff;
+}
+
+.label {
+  margin-bottom: 10px;
+}
+
+.input {
+  width: 90%;
+}
+
+.textarea {
+  width: 100%;
+  height: 100px;
+  resize: none;
+}
+
+.input,
+.textarea {
+  border: none;
+  border-bottom: 1px solid #ffc0cb;
+  outline: none;
+  padding: 10px;
+  background-color: transparent;
+}
+
+.main-footer {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  height: 200px;
+  flex-direction: column;
+  font-size: 12px;
+  font-weight: 600;
+  padding-top: 40px;
+}
+
+.phone {
+  margin-bottom: 10px;
+}
+
+.rights {
+  margin-top: 20px;
+}
+
+/* Medium Devices */
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+/* Tablets */
+@media only screen and (max-width: 769px) {
+  .flex-inputs {
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 95%;
+    margin: auto;
+  }
+}
