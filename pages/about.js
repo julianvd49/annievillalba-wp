@@ -11,7 +11,7 @@ import { content, formContent } from "../utils/content";
 import Head from "next/head";
 import { useContext } from "react";
 import { StateContext } from "../utils/state";
-import LangBtn from "..langbtn/components/langBtn";
+import LangBtn from "../components/langBtn";
 
 const ContactForm = () => {
   const { isEN, setIsEN } = useContext(StateContext);
