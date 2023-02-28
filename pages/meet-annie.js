@@ -8,7 +8,7 @@ import Image from "next/image";
 import Head from "next/head";
 import { useContext } from "react";
 import { StateContext } from "../utils/state";
-import LangBtn from "@/components/langBtn";
+import LangBtn from "..langbtn/components/langBtn";
 
 const Meet = () => {
   const { isEN, setIsEN } = useContext(StateContext);
